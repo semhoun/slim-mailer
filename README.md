@@ -1,8 +1,10 @@
-# Slim4 Mailer
+# Slim 4 Mailer
+[![Latest Stable Version](https://poser.pugx.org/semhoun/slim-mailer/v/stable)](https://packagist.org/packages/semhoun/slim-mailer) [![Total Downloads](https://poser.pugx.org/semhoun/slim-mailer/downloads)](https://packagist.org/packages/semhoun/slim-mailer) [![Latest Unstable Version](https://poser.pugx.org/semhoun/slim-mailer/v/unstable)](https://packagist.org/packages/semhoun/slim-mailer) [![License](https://poser.pugx.org/semhoun/slim-mailer/license)](https://packagist.org/packages/semhoun/slim-mailer) [![Monthly Downloads](https://poser.pugx.org/semhoun/slim-mailer/d/monthly)](https://packagist.org/packages/semhoun/slim-mailer)
 
 Email support for the Slim 4 Framework using Twig and 
-[Swift Mailer](https://github.com/swiftmailer/swiftmailer). Mailable classes will
-massively  tidy up your controller methods or routes, and will make sending email 
+[Swift Mailer](https://github.com/swiftmailer/swiftmailer).
+
+Mailable classes will massively  tidy up your controller methods or routes, and will make sending email 
 a breeze.
 
 ## License
