@@ -1,0 +1,35 @@
+{
+    "name": "semhoun/slim-mailer",
+    "description": "Email support for the Slim 4 Framework using Twig and Swift Mailer.",
+    "type": "library",
+    "keywords": ["slim", "slim4", "slim-framework", "swiftmailer", "slim-mail", "slim-mailer", "mailer", "email", "emails"],
+    "homepage": "https://github.com/semhoun/slim-mailer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathanael Semhoun",
+            "email": "nathanael@semhoun.net",
+            "homepage": "http://semhoun.net",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/semhoun/slim-mailer.git"
+    },
+    "require": {
+        "php": ">=7.1",
+        "slim/twig-view": "3.x@dev",
+        "swiftmailer/swiftmailer": "^6.2"
+    },
+    "require-dev": {
+        "php-di/php-di": "^6.0",
+        "psr/http-factory": "^1.0",
+        "slim/slim": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Semhoun\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
